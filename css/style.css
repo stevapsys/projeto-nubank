@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    background: #ffffff;
+    box-shadow: 0px 2px 2px -2px gray;
+}
+
+.logo {
+    display: inline-block;
+    align-items: flex-end;
+    margin: 5vh;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 2px 10px 2px; 
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #767676;
+    font-size: 18px;
+
+}
+
+.inicio {
+    color:#8A05BC;
+}
+
+nav ul li a:hover {
+    color:#8A05BC;
+    font-weight: bold;
+}
+
+.login {
+    display: inline-block;
+    margin-left: 25vh;
+
+}
+
+.roxo {
+    display: inline-block;
+    margin-left: 5vh;
+    background-color: #8A05BC;
+    padding: 50px 12px 33px;
+}
+
+.aLogin {
+    text-decoration: none;
+    font-size: 18px;
+    color: #8A05BC;
+}
+
+.roxo:hover{
+    background-color: rgb(179, 25, 235);
+}
+
+.aRoxo {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+main {
+    margin-top: 150px;
+}
+
+main .menina {
+    overflow: hidden;
+    background-image: url(/img/bg1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .texto {
+    color: white;
+    display: inline-block;
+    max-width: 350px;
+    margin-left: 30vh;
+    margin-top: 20vh;
+}
+
+main .h1 {
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+main .textoApp {
+    font-weight: 100;
+    margin-top: 5vh;
+    font-size: 18px;
+    margin-bottom: 10vh;
+}
+
+main .quero {
+    background-color: #8A05BC;
+    padding: 20px;
+    margin-top: 10vh;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+main .menina .celular {
+    background-image: url(/img/1.png);
+    width: 33%;
+    height: 100vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20vh;
+}
+
+.contaDigital {
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+
+}
+
+.novoTexto {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: 18vh;
+    margin-top: 15vh;
+
+
+}
+
+.digital {
+    color: #8A05BC;
+    font-size: 48px;
+    font-weight: lighter;
+
+
+}
+
+.clientes {
+    color: rgb(118, 118, 118);
+    font-size: 48px;
+    margin-bottom: 5vh;
+    font-weight: lighter;
+
+
+
+}
+
+.segura {
+    color: rgb(179, 25, 235);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.segura:hover{
+    color:#767676
+}
+
+.cel2 {
+    background-image: url(/img/2.png);
+    width: 40%;
+    height: 100vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20vh;
+}
+
+.cartao {
+    overflow: hidden;
+}
+
+.textoBranco {
+    display: block;
+    max-width: 500px;
+    margin-left: 18vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-weight: lighter;
+    float:left;
+
+
+}
+
+.cel3 {
+    background-image: url(/img/3.png);
+    width: 40%;
+    height: 100vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20vh;
+}
+
+.textoRoxo {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: 18vh;
+    margin-top: 15vh;
+    margin-bottom: 25vh;
+
+}
+
+.rewards {
+    background-color: #530082;
+    overflow: hidden;
+}
+
+.digitalDois {
+    font-size: 48px;
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: lighter;
+
+
+}
+
+.clientesDois {
+    color: rgb(202, 142, 226);
+    font-size: 48px;
+    margin-bottom: 5vh;
+    font-weight: lighter;
+
+}
+
+.saibamais {
+    color:white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.cel4 {
+    background-image: url(/img/4.png);
+    width: 40%;
+    height: 100vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20vh;
+}
+
+.reiventando {
+    background-image: url(/img/bg2.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.relacao {
+    font-size: 48px;
+    color: #ffffff;
+    max-width: 500px;
+    font-weight: lighter;
+    margin-bottom: 5vh;
+
+}
+
+.bg {
+    margin-left: 18vh;
+    padding-top: 20vh;
+}
+
+.community {
+    background-image: url(/img/bg3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
