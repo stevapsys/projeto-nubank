@@ -266,6 +266,7 @@ main .menina .celular {
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 20vh;
+
 }
 
 .reiventando {
@@ -274,6 +275,8 @@ main .menina .celular {
     height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
+
+
 }
 
 .relacao {
@@ -295,6 +298,127 @@ main .menina .celular {
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    
+
+
+}
+
+.blog {
+    background-color: #672195;
+    overflow: hidden;
+    max-height: 80vh;
+    
+}
+
+.cel5 {
+    background-image: url(/img/bg4.jpg);
+    width: 50%;
+    height: 120vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 75% 90%;
+    background-position-x: right;
+    margin-right: 20vh;
+}
+
+.blogDinheiro {
+    font-size: 48px;
+    color: #ffffff;
+    max-width: 300px;
+    font-weight: lighter;
+    margin-bottom: 5vh;
+
+}
+
+footer {
+    background-color: black;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    
+   
+}
+
+footer .row {
+    grid:100px / auto auto auto;
+    display:grid;
+}
+
+footer .primeiroMenu {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+footer .segundoMenu {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+.footer:hover {
+    color: #8A05BC;
+}
+
+.footerTitulo {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-bottom: 5vh;
+    font-size: 18px;
+
+}
+
+footer ul li {
+    margin-top: 2vh;
+}
+
+footer ul .titulo {
+    margin: 32px 0 32px;
+
+}
+
+.logoApp {
+    margin: 40px;
+}
+
+footer .rodape {
+    padding-top: 130vh;
+    background-color: black;
+    color: white;
+    padding-bottom: 5vh;
+}
+
+.textoRodape {
+    display: inline-block;
+}
+
+.textoRodape p {
+    margin: 10px;
+}
+
+.textoRodape img {
+    margin: 10px;
+}
+
+label  {
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+.idioma {
+    padding-bottom: 30px;
 
 }
