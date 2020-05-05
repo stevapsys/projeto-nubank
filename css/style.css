@@ -132,6 +132,10 @@ main .quero {
 
 }
 
+main .quero:hover {
+    background-color: rgb(179, 25, 235);
+}
+
 main .menina .celular {
     background-image: url(/img/1.png);
     width: 33%;
